@@ -18,6 +18,7 @@ require_once 'include/header.html';
 require_once 'include/navbar.html';
 echo '<div class="container">';
 require_once 'include/carousel.html';
+require_once 'include/content_accueil.html';
 echo '</div>';
 
 ?>
