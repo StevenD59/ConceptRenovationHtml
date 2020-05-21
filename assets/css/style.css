@@ -1,0 +1,17 @@
+.sizeLogo{
+    height: 100px;
+}
+
+li:hover{
+    color: black;
+}
+
+li{
+    display: inline;
+    list-style-type:none;
+    color: rgb(19, 193,246);
+}
+
+.backgroundNavbar{
+    background-color: rgb(19, 193,246);
+}
