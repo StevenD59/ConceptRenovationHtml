@@ -16,8 +16,8 @@ li{
 
 /* BACKGROUND COLOR */
 
-.backgroundNavbar, .backgroundTitle, .colorAccueilButton{
-    background-color: rgb(19, 193,246);
+.backgroundNavbar, .backgroundTitle, .colorAccueilButton, .backgroundServices{
+    background-color: rgb(19, 193, 246);
 }
 
 /* TAILLE IMAGE CAROUSEL */
@@ -29,15 +29,15 @@ li{
 
 
 
-
-
-
-
 /* TAILLE TELEPHONE */
 @media (max-width: 575.98px) {
 
-    .mtButton{
+    .mtButton, .responsiveMt{
         margin-top: 10px;
+    }
+
+    .sizeImageCarousel{
+        height: 160px;
     }
 
 }
@@ -48,11 +48,17 @@ li{
 
 /* TAILLE ECRAN MOYEN */
 @media (min-width: 768px) and (max-width: 991px) {
+
 }
 
 /* TAILLE ECRAN GRAND */
 
 @media (min-width: 992px) {
+
+    .sizeAccueilButtonMarginTop{
+        margin-top: 150px;
+    }
+
 }
 
 
