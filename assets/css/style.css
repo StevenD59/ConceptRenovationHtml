@@ -1,65 +1,95 @@
-.sizeLogo{
+.sizeLogo {
     height: 100px;
+}
+
+.sizeLogoWork {
+    height: 120px;
 }
 
 /* MENU HEADER CSS */
 
-li:hover{
+.liHeader:hover {
     color: black;
 }
 
-li{
+.liHeader {
     display: inline;
-    list-style-type:none;
-    color: rgb(19, 193,246);
+    list-style-type: none;
+    color: rgb(19, 193, 246);
 }
 
 /* BACKGROUND COLOR */
 
-.backgroundNavbar, .backgroundTitle, .colorAccueilButton, .backgroundServices{
+.backgroundNavbar, .backgroundTitle, .colorAccueilButton, .backgroundServices, .services, .backgroundFooter {
     background-color: rgb(19, 193, 246);
 }
 
 /* TAILLE IMAGE CAROUSEL */
 
-.sizeImageCarousel{
+.sizeImageCarousel {
     width: 860px;
     height: 360px;
 }
 
+/* LI ACCUEIL */
 
+.liContent {
+    list-style-type: none;
+}
+
+/* TAILLE IMAGE DEVIS FOOTER */
+
+.sizeDevisFooter {
+    height: 90px;
+}
 
 /* TAILLE TELEPHONE */
-@media (max-width: 575.98px) {
 
-    .mtButton, .responsiveMt{
+@media (max-width: 767px) {
+    .mtButton, .responsiveMt {
         margin-top: 10px;
     }
-
-    .sizeImageCarousel{
+    .sizeImageCarousel {
         height: 160px;
     }
 
+    .centerFooter, .centerFooterDevis{
+        display: flex;
+        justify-content: center;
+    }
+
+    .borderBottomFooter{
+        border-top: black 3px solid;
+        border-radius: 5px;
+    }
+
+    .sizeDevisFooter{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
 
-/* TAILLE IPAD */
-@media (min-width: 576px) and (max-width: 767px) {
-}
+
 
 /* TAILLE ECRAN MOYEN */
-@media (min-width: 768px) and (max-width: 991px) {
 
+@media (min-width: 768px) and (max-width: 991px) {
+    .centerFooterDevis{
+        display: flex;
+        justify-content: end;
+    }
 }
 
 /* TAILLE ECRAN GRAND */
 
 @media (min-width: 992px) {
-
-    .sizeAccueilButtonMarginTop{
+    .sizeAccueilButtonMarginTop {
         margin-top: 150px;
     }
 
+    .centerFooterDevis{
+        display: flex;
+        justify-content: end;
+    }
+
 }
-
-
-
