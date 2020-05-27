@@ -1,7 +1,3 @@
-.sizeLogo {
-    height: 100px;
-}
-
 .sizeLogoWork {
     height: 120px;
 }
@@ -20,7 +16,7 @@
 
 /* BACKGROUND COLOR */
 
-.backgroundNavbar, .backgroundTitle, .colorAccueilButton, .backgroundServices, .services, .backgroundFooter {
+.backgroundNavbar, .backgroundTitle, .colorAccueilButton, .backgroundServices, .services, .backgroundFooter, .backgroundColorContact {
     background-color: rgb(19, 193, 246);
 }
 
@@ -36,7 +32,6 @@
 .liContent {
     list-style-type: none;
 }
-
 
 /* RESPONSIVE GOOGLE MAP */
 
@@ -61,15 +56,18 @@
     height: 90px;
 }
 
+/* TAILLE IMAGE REALISATIONS */
 
+.sizeImageRealisation {
+    max-height: 139px;
+    min-width: 255px;
+    max-width: 255px;
+}
 
-
-
-
-
-
-
-
+.sizeBigImageRealisation {
+    max-height: 475px;
+    max-width: 870px;
+}
 
 /* TAILLE TELEPHONE */
 
@@ -102,6 +100,15 @@
         justify-content: end;
     }
 
+    .sizeBigImageRealisation {
+        max-height: 350px;
+        min-height: 350px;
+        max-width: 620px;
+    }
+
+    .mtLittleImageRealisation{
+        margin-top: 10px;
+    }
 }
 
 /* TAILLE ECRAN GRAND */
@@ -114,17 +121,4 @@
         display: flex;
         justify-content: end;
     }
-
-     /* TAILLE IMAGE REALISATIONS */
-
-.sizeImageRealisation{
-    max-height: 139px;
-    min-width: 255px;
-    max-width: 255px;
-}
-
-.sizeBigImageRealisation{
-    max-height: 475px;
-    max-width: 870px;
-}
 }
