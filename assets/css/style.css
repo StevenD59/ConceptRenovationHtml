@@ -37,6 +37,24 @@
     list-style-type: none;
 }
 
+
+/* RESPONSIVE GOOGLE MAP */
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
 /* TAILLE IMAGE DEVIS FOOTER */
 
 .sizeDevisFooter {
@@ -52,29 +70,24 @@
     .sizeImageCarousel {
         height: 160px;
     }
-
-    .centerFooter, .centerFooterDevis{
+    .centerFooter, .centerFooterDevis {
         display: flex;
         justify-content: center;
     }
-
-    .borderBottomFooter{
+    .borderBottomFooter {
         border-top: black 3px solid;
         border-radius: 5px;
     }
-
-    .sizeDevisFooter{
+    .sizeDevisFooter {
         margin-top: 10px;
         margin-bottom: 10px;
     }
 }
 
-
-
 /* TAILLE ECRAN MOYEN */
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .centerFooterDevis{
+    .centerFooterDevis {
         display: flex;
         justify-content: end;
     }
@@ -86,10 +99,8 @@
     .sizeAccueilButtonMarginTop {
         margin-top: 150px;
     }
-
-    .centerFooterDevis{
+    .centerFooterDevis {
         display: flex;
         justify-content: end;
     }
-
 }
