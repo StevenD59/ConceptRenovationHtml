@@ -61,6 +61,27 @@
     height: 90px;
 }
 
+
+/* TAILLE IMAGE REALISATIONS */
+
+.sizeImageRealisation{
+    max-height: 139px;
+    min-width: 255px;
+    max-width: 255px;
+}
+
+.sizeBigImageRealisation{
+    max-height: 475px;
+    max-width: 870px;
+}
+
+
+
+
+
+
+
+
 /* TAILLE TELEPHONE */
 
 @media (max-width: 767px) {
