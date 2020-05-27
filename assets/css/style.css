@@ -62,18 +62,7 @@
 }
 
 
-/* TAILLE IMAGE REALISATIONS */
 
-.sizeImageRealisation{
-    max-height: 139px;
-    min-width: 255px;
-    max-width: 255px;
-}
-
-.sizeBigImageRealisation{
-    max-height: 475px;
-    max-width: 870px;
-}
 
 
 
@@ -112,6 +101,7 @@
         display: flex;
         justify-content: end;
     }
+
 }
 
 /* TAILLE ECRAN GRAND */
@@ -124,4 +114,17 @@
         display: flex;
         justify-content: end;
     }
+
+     /* TAILLE IMAGE REALISATIONS */
+
+.sizeImageRealisation{
+    max-height: 139px;
+    min-width: 255px;
+    max-width: 255px;
+}
+
+.sizeBigImageRealisation{
+    max-height: 475px;
+    max-width: 870px;
+}
 }
