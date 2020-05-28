@@ -16,6 +16,10 @@ html, body {
     min-height: 100%;
 }
 
+.page-categories{
+    min-height: 69%;
+}
+
 /* MENU HEADER CSS */
 
 .liHeader:hover {
@@ -124,6 +128,10 @@ html, body {
     .marginTopIpad {
         margin-top: 150px;
     }
+
+    .mtCategories{
+        margin: 20px;
+    }
 }
 
 /* TAILLE ECRAN GRAND */
@@ -136,4 +144,28 @@ html, body {
         display: flex;
         justify-content: end;
     }
+
+    .mtCategories{
+        padding-top: 115px;
+    }
+}
+
+/* CSSS PARTIE ADMINISTRATEUR */
+
+.backgroundMenu{
+    background-color: darkgrey;
+    min-height: 602px;
+    border-top: black 1px solid;
+}
+
+.liste{
+    list-style-type:none;
+}
+
+.colorIconTab{
+    color: rgb(33, 37, 41);;
+}
+
+.color_div{
+    background-color: darkgray;
 }
