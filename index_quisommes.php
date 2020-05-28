@@ -16,7 +16,7 @@
 
 require_once 'include/header.html';
 require_once 'include/navbar.html';
-echo '<div class="container">';
+echo '<div class="container page-wrap">';
 require_once 'include/qui_sommes.html';
 echo '</div>';
 require_once 'include/footer.html';

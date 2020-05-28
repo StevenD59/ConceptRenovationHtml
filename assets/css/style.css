@@ -2,20 +2,18 @@
     height: 120px;
 }
 
-footer{
-    bottom: 0;
-    /* Absolute = se positionne par rapport au premier parent relative*/
-    position: absolute;
+/* CONTENT MINIMUM SIZE */
+
+* {
+    margin: 0;
 }
 
+html, body {
+    height: 100%;
+}
 
-.bodyPosition{
-        height: 100%;
-        padding: 0;
-        margin: 0;
-        /* Relative = se positionne par rapport au parent direct */ 
-        position: relative;
-        padding-bottom: 100px;
+.page-wrap {
+    min-height: 100%;
 }
 
 /* MENU HEADER CSS */
@@ -108,22 +106,23 @@ footer{
     }
 }
 
-/* TAILLE ECRAN MOYEN */
+/* TAILLE ECRAN IPAD */
 
 @media (min-width: 768px) and (max-width: 991px) {
     .centerFooterDevis {
         display: flex;
         justify-content: end;
     }
-
     .sizeBigImageRealisation {
         max-height: 350px;
         min-height: 350px;
         max-width: 620px;
     }
-
-    .mtLittleImageRealisation{
+    .mtLittleImageRealisation {
         margin-top: 10px;
+    }
+    .marginTopIpad {
+        margin-top: 150px;
     }
 }
 

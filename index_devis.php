@@ -10,22 +10,23 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <title>Accueil</title>
 </head>
-<body class="bodyPosition">
+<body>
 
 <?php
 
 require_once 'include/header.html';
 require_once 'include/navbar.html';
-echo '<div class="container">';
+echo '<div class="container page-wrap">';
 require_once 'include/devis.html';
 echo '</div>';
 require_once 'include/footer.html';
 
 ?>
 
-<script src="assets/js/js.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="assets/js/js.js"></script>
 </body>
 </html>
