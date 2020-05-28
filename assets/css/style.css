@@ -2,6 +2,22 @@
     height: 120px;
 }
 
+footer{
+    bottom: 0;
+    /* Absolute = se positionne par rapport au premier parent relative*/
+    position: absolute;
+}
+
+
+.bodyPosition{
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        /* Relative = se positionne par rapport au parent direct */ 
+        position: relative;
+        padding-bottom: 100px;
+}
+
 /* MENU HEADER CSS */
 
 .liHeader:hover {

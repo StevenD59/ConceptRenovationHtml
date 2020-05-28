@@ -14,12 +14,14 @@
 
 <?php
 
+
 require_once 'include/header.html';
 require_once 'include/navbar.html';
 echo '<div class="container">';
 require_once 'include/collaborateur.html';
 echo '</div>';
 require_once 'include/footer.html';
+
 
 ?>
 
